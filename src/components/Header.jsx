@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Menu, X, Heart } from "lucide-react";
+import { Menu, X, Heart, Stethoscope } from "lucide-react";
 import { Link } from "react-scroll";
 import { motion, AnimatePresence } from "framer-motion";
 
@@ -16,8 +16,8 @@ const Header = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
           >
-            <Heart className="h-8 w-8 text-trust-blue" />
-            <h1 className="text-2xl font-bold text-trust-navy">Lena Boost</h1>
+            <Stethoscope className="h-8 w-8 text-trust-blue" />
+            <h1 className="text-2xl font-bold text-trust-navy">Lena J Boost</h1>
           </motion.div>
 
           {/* Desktop Navigation */}
