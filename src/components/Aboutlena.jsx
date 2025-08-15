@@ -2,7 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import { scroller } from "react-scroll";
 
-const About = () => {
+const Aboutlena = () => {
   const scrollToSection = (id) => {
     scroller.scrollTo(id, {
       smooth: true,
@@ -74,4 +74,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default Aboutlena;

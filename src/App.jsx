@@ -4,8 +4,8 @@ import Hero from "./components/Hero";
 import Services from "./components/Services";
 import Testimonials from "./components/Testimonials";
 import Contact from "./components/Contact";
-import About from './components/about';
 import WhatsAppWidget from './components/Whatsappwidget';
+import Aboutlena from './components/Aboutlena';
 
 
 function App() {
@@ -15,7 +15,7 @@ function App() {
       <Header />
       <main>
         <Hero />
-        <About />
+        <Aboutlena />
         <Services />
         <Testimonials />
         <Contact />
