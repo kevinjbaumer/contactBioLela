@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function WhatsAppWidget({
+export default function WhatsAppfloat({
   phone = "+13398838399",
   message = "Hello Lena, I’m interested in CNA care services.",
 }) {
